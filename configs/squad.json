@@ -20,12 +20,9 @@
   "bucket": "gtpjw",
   "model_dir": "mesh_jax_pile_6B_squad",
   "train_set": "squad.train.index",
-  "val_set": {
-    "pile": "squad.val.index",
-    "owt": "openwebtext2_new_inputs.val.index"
-  },
+  "val_set": {},
   "eval_harness_tasks": [],
-  "val_batches": 100,
+  "val_batches": 0,
   "val_every": 500,
   "ckpt_every": 500,
   "keep_every": 10000,
